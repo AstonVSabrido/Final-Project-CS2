@@ -13,7 +13,7 @@ The code will display the average fare of the trips that fill the criteria.
 
 Planned inputs:
 "Enter ID trip:"
-"How would you like to sort the information following these criterias (destination, occupancy rate, date of trip and status, fare, bus type
+"How would you like to sort the information following these criterias (destination, occupancy rate, date of trip and status, fare):"
 "Enter the date of the trip using the following format (Month, day, year):"
 "Enter the destination:"
 "Enter status:"
