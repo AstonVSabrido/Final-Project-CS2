@@ -39,3 +39,12 @@ Planner outputs:
 “The average fare is”, {fare}.
 
 “The number of trips that fill out the criteria”, {no.trip}.
+
+Logic:
+Load JSON file
+Display options for criteria
+Input first criteria
+Input second criteria 
+Take and display the average occupancy rate based on the range of the criteria/s
+Take and display the average fare based on the range of the criteria/s
+Take and display the number of trips that are within the range of the criteria/s
