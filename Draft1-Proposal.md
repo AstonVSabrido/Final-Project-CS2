@@ -32,7 +32,7 @@ Planned inputs:
 "How would the user like to sort the information in the following criteria ( ID trip, date of departure, destination, fare, occupancy rate, and status):"
 "Enter second criteria if there's not enter "N/A":”
 
-Planner outputs: 
+Planned outputs: 
 
 “The average occupancy rate is”, {rate}.
 
@@ -40,7 +40,7 @@ Planner outputs:
 
 “The number of trips that fill out the criteria”, {no.trip}.
 
-Logic:
+Planned Logic:
 Load JSON file
 Display options for criteria
 Input first criteria
