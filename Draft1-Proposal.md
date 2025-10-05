@@ -1,7 +1,11 @@
 Updated version:
+PROJECT TITLE: Transportation Analyzer
+
+Project Objectives:
+1. To develop a program that processes and sorts trip information based on user-defined criteria such as destination, occupancy rate, date of trip, status, and fare.
+2. To generate analytical outputs by calculating and displaying the number of trips that meet specific conditions, along with their average occupancy rates and fares.
 
 Planned Features:
-The code will ask the user for a criteria to sort the trips (destination, travel duration, bus operator, bus type).
 The code will ask for a secondary criteria if any.
 The code will display the number of trips that fill the criteria.
 The code will display the average occupancy rate of the trips that fill the criteria.
