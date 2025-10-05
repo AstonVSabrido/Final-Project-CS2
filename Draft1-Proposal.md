@@ -6,6 +6,7 @@ Project Objectives:
 2. To generate analytical outputs by calculating and displaying the number of trips that meet specific conditions, along with their average occupancy rates and fares.
 
 Planned Features:
+The code will ask the user for a criteria to sort the trips with (destination, travel duration, bus operator).
 The code will ask for a secondary criteria if any.
 The code will display the number of trips that fill the criteria.
 The code will display the average occupancy rate of the trips that fill the criteria.
