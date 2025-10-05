@@ -1,5 +1,12 @@
 Updated version:
 
+Planned Features:
+The code will ask the user for a criteria to sort the trips (destination, travel duration, bus operator, bus type).
+The code will ask for a secondary criteria if any.
+The code will display the number of trips that fill the criteria.
+The code will display the average occupancy rate of the trips that fill the criteria.
+The code will display the average fare of the trips that fill the criteria.
+
 Planned inputs:
 "Enter ID trip:"
 "Enter the date of the trip using the following format (Month, day, year):"
