@@ -2,19 +2,14 @@ Updated version:
 PROJECT TITLE: Transportation Analyzer
 
 Problem Statement:
-Transportsti on data not being properly utilized, distributed or analyzed and traffic congestion.
+Transportation data not being properly utilized, distributed or analyzed and traffic congestion.
 These are problems being faced in the
-Philippines in regards to transportati on. Why should we even worry about such problems?
-Well this problems
-can lead to even more issues in the future, let's take traffic
-You sent
-let's take traffic congestion for example. If all cars are stuck in one place they would be forced to stay on for a longer period therefore releasing more dangerous funes from the exhaust of diesel-power ed vehicles, this leads to air
-pollution and even more complicated issues in the future.
-In
-You sent
-vehicles, this leads to air
-pollution and even more complicated issues in the future.
-In conclusion, these problems on transportati on may start out small but with time it can become a much bigger threat.
+Philippines in regards to transportation. Why should we even worry about such problems?
+These problems
+can lead to even more issues in the future, 
+let's take traffic congestion for example. If all cars are stuck in one place they would be forced to stay on for a longer period therefore releasing more dangerous funes from the exhaust of diesel-power ed vehicles, this leads to air pollution and even more complicated issues in the future.
+
+In conclusion, these problems on transportation may start out small but with time it can become a much bigger threat.
 
 Project Objectives:
 1. To develop a program that processes and sorts trip information based on user-defined criteria such as destination, occupancy rate, date of trip, status, and fare.
