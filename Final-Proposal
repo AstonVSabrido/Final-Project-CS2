@@ -1,1 +1,10 @@
+PROJECT TITLE: Transportation Analyzer
+
+PROBLEM STATEMENT:
+
+PROJECT OBJECTIVES:
+1. To analyze transportation trip data so it can be used in a more meaningful way.
+2. To let the user sort and filter trips based on criteria like destination, date, fare, and occupancy rate.
+3. To show useful results such as the average fare, average occupancy rate, and the number of trips that match the chosen criteria.
+
 
