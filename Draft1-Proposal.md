@@ -1,5 +1,5 @@
 Updated version:
-PROJECT TITLE: Transportation Analyzer
+PROJECT TITLE: Transportanize
 
 Problem Statement:
 Transportation data not being properly utilized, distributed or analyzed and traffic congestion.
@@ -12,9 +12,9 @@ let's take traffic congestion for example. If all cars are stuck in one place th
 In conclusion, these problems on transportation may start out small but with time it can become a much bigger threat.
 
 Project Objectives:
-1. To analyze transportation trip data so it can be used in a more meaningful way.
-2. To let the user sort and filter trips based on criteria like destination, date, fare, and occupancy rate.
-3. To show useful results such as the average fare, average occupancy rate, and the number of trips that match the chosen criteria.
+1. Let users filter trips using different criteria such as destination, bus type, trip ID, or status.
+2. Keep a record of previously displayed trips for easy reference.
+3. Allow users to perform multiple searches continuously without restarting the program.
 
 Planned Features:
 The code will ask the user for a criteria to sort the trips with (destination, travel duration, bus operator).
