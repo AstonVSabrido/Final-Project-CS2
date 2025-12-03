@@ -25,16 +25,21 @@ The code will display the average fare of the trips that fill the criteria.
 
 Planned inputs:
 
-"How would the user like to sort the information in the following criteria ( ID trip, date of departure, destination, fare, occupancy rate, and status):"
-"Enter second criteria if there's not enter "N/A":”
+1.) The user will search primary criterions such as destination, trip_id, bus_type, etc.
+“Choose a primary criteria:”
+2.)  The user will then select a specific value from the list of available values under that criterion.
+“Enter a value from the list above:”
+3.)  The user can also choose whether to view previously displayed trips or exit the program.
+“Choose an option:”
 
 Planned outputs: 
 
-“The average occupancy rate is”, {rate}.
-
-“The average fare is”, {fare}.
-
-“The number of trips that fill out the criteria”, {no.trip}.
+1.) Display the list of trips that match the selected criterion and value.
+“All values under 'main_criteria':”, list of trips
+2.) The program will display all previously viewed trips when the user requests it.
+“All previously displayed trips”, list of previous trips 
+3.)  Allow the user to perform multiple searches through a loop until they choose to exit.
+“Choose an option:”
 
 Planned Logic:
 Load JSON file
