@@ -12,8 +12,9 @@ let's take traffic congestion for example. If all cars are stuck in one place th
 In conclusion, these problems on transportation may start out small but with time it can become a much bigger threat.
 
 Project Objectives:
-1. To develop a program that processes and sorts trip information based on user-defined criteria such as destination, occupancy rate, date of trip, status, and fare.
-2. To generate analytical outputs by calculating and displaying the number of trips that meet specific conditions, along with their average occupancy rates and fares.
+1. To analyze transportation trip data so it can be used in a more meaningful way.
+2. To let the user sort and filter trips based on criteria like destination, date, fare, and occupancy rate.
+3. To show useful results such as the average fare, average occupancy rate, and the number of trips that match the chosen criteria.
 
 Planned Features:
 The code will ask the user for a criteria to sort the trips with (destination, travel duration, bus operator).
