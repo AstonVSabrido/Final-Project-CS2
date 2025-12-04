@@ -43,13 +43,22 @@ Planned outputs:
 “Choose an option:”
 
 Planned Logic:
-Load JSON file
-Display options for criteria
-Input first criteria
-Input second criteria 
-Take and display the average occupancy rate based on the range of the criteria/s
-Take and display the average fare based on the range of the criteria/s
-Take and display the number of trips that are within the range of the criteria/s
+Load the JSON file with the trip data.
+For easier searching, merge any nested fields by flattening them.
+Create a list that acts as a history to store the displayed trips.
+Loop the entire thing again until the user exits.
+
+Main program logic:
+Show the main menu and its options: Search trips, View History, and Exit.
+If the option ‘search trips’ was selected:
+	Show the available options for the criteria.
+	Ask the user for criteria input.
+	Display all the values under that one criterion.
+	Ask the user for a value input.
+	Show all the trips matching that specific value.
+	Save the trip to the history list.
+If the option ‘View history’ is selected, show the contents of the history list.
+If the option ‘Exit’ is selected, exit the program.
 
 PSEUDOCODE:
 
