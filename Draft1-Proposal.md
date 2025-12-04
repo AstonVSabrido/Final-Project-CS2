@@ -2,14 +2,10 @@ Updated version:
 PROJECT TITLE: Transportanize
 
 Problem Statement:
-Transportation data not being properly utilized, distributed or analyzed and traffic congestion.
-These are problems being faced in the
-Philippines in regards to transportation. Why should we even worry about such problems?
-These problems
-can lead to even more issues in the future, 
-let's take traffic congestion for example. If all cars are stuck in one place they would be forced to stay on for a longer period therefore releasing more dangerous funes from the exhaust of diesel-power ed vehicles, this leads to air pollution and even more complicated issues in the future.
+Transportation data in the Philippines is not being fully utilized, analyzed, or distributed properly, which can contribute to traffic congestion. For example, traffic congestion forces vehicles to idle for longer periods, releasing more harmful fumes into the air. This contributes to air pollution and other environmental and health issues over time.
 
-In conclusion, these problems on transportation may start out small but with time it can become a much bigger threat.
+Proper analysis and utilization of transportation data can help identify patterns, improve efficiency, and reduce negative impacts like congestion and pollution. Without a systematic way to analyze trip data, small problems in transportation can grow into larger societal and environmental challenges.
+
 
 Project Objectives:
 1. Let users filter trips using different criteria such as destination, bus type, trip ID, or status.
@@ -17,11 +13,12 @@ Project Objectives:
 3. Allow users to perform multiple searches continuously without restarting the program.
 
 Planned Features:
-The code will ask the user for a criteria to sort the trips with (destination, travel duration, bus operator).
-The code will ask for a secondary criteria if any.
-The code will display the number of trips that fill the criteria.
-The code will display the average occupancy rate of the trips that fill the criteria.
-The code will display the average fare of the trips that fill the criteria.
+* Ask the user to select a primary search criterion(e.g., destination, bus type, trip ID, status).
+* Display all possible values for the selected criterion and allow the user to pick a value.
+* Display all trips that match the chosen value.
+* Store displayed trips in a history list.
+* Allow users to view all previously displayed trips at any time.
+* Repeat the process so the user can perform multiple searches without restarting the program.
 
 Planned inputs:
 
@@ -34,11 +31,11 @@ Planned inputs:
 
 Planned outputs: 
 
-1.) Display the list of trips that match the selected criterion and value.
+4.) Display the list of trips that match the selected criterion and value.
 “All values under 'main_criteria':”, list of trips
-2.) The program will display all previously viewed trips when the user requests it.
+5.) The program will display all previously viewed trips when the user requests it.
 “All previously displayed trips”, list of previous trips 
-3.)  Allow the user to perform multiple searches through a loop until they choose to exit.
+6.)  Allow the user to perform multiple searches through a loop until they choose to exit.
 “Choose an option:”
 
 Planned Logic:
@@ -76,3 +73,4 @@ While userInput is not equal to 0:
         Display "You have exited the program."
 End While
 End Main
+
