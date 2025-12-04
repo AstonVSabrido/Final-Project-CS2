@@ -1,10 +1,87 @@
 PROJECT TITLE: Transportanize
 
-PROBLEM STATEMENT:
+Problem Statement:
+Transportation data in the Philippines is not being fully utilized, analyzed, or distributed properly, which can contribute to traffic congestion. For example, traffic congestion forces vehicles to idle for longer periods, releasing more harmful fumes into the air. This contributes to air pollution and other environmental and health issues over time.
 
-PROJECT OBJECTIVES:
-1. To analyze transportation trip data so it can be used in a more meaningful way.
-2. To let the user sort and filter trips based on criteria like destination, date, fare, and occupancy rate.
-3. To show useful results such as the average fare, average occupancy rate, and the number of trips that match the chosen criteria.
+Proper analysis and utilization of transportation data can help identify patterns, improve efficiency, and reduce negative impacts like congestion and pollution. Without a systematic way to analyze trip data, small problems in transportation can grow into larger societal and environmental challenges.
 
 
+Project Objectives:
+1. Let users filter trips using different criteria such as destination, bus type, trip ID, or status.
+2. Keep a record of previously displayed trips for easy reference.
+3. Allow users to perform multiple searches continuously without restarting the program.
+
+Planned Features:
+-Ask the user to select a primary search criterion(e.g., destination, bus type, trip ID, status).
+-Display all possible values for the selected criterion and allow the user to pick a value.
+-Display all trips that match the chosen value.
+-Store displayed trips in a history list.
+-Allow users to view all previously displayed trips at any time.
+-Repeat the process so the user can perform multiple searches without restarting the program.
+
+Planned inputs:
+
+1.) The user will search primary criterions such as destination, trip_id, bus_type, etc.
+“Choose a primary criteria:”
+
+2.)  The user will then select a specific value from the list of available values under that criterion.
+“Enter a value from the list above:”
+
+3.)  The user can also choose whether to view previously displayed trips or exit the program.
+“Choose an option:”
+
+Planned outputs: 
+
+4.) Display the list of trips that match the selected criterion and value.
+“All values under 'main_criteria':”, list of trips
+
+5.) The program will display all previously viewed trips when the user requests it.
+“All previously displayed trips”, list of previous trips 
+
+6.)  Allow the user to perform multiple searches through a loop until they choose to exit.
+“Choose an option:”
+
+Planned Logic:
+Load the JSON file with the trip data.
+For easier searching, merge any nested fields by flattening them.
+Create a list that acts as a history to store the displayed trips.
+Loop the entire thing again until the user exits.
+
+Main program logic:
+Show the main menu and its options: Search trips, View History, and Exit.
+If the option ‘search trips’ was selected:
+	Show the available options for the criteria.
+	Ask the user for criteria input.
+	Display all the values under that one criterion.
+	Ask the user for a value input.
+	Show all the trips matching that specific value.
+	Save the trip to the history list.
+If the option ‘View history’ is selected, show the contents of the history list.
+If the option ‘Exit’ is selected, exit the program.
+
+PSEUDOCODE:
+
+Start Main
+Load tripData using loadJsonFile
+Flatten the trip data and store it in flatTripData = flatten(tripData)
+Set history as a string
+Set userInput as an integer
+While userInput is not equal to 0:
+    Display "[1] Search Trips"
+    Display "[2] View History"
+    Display "[0] Exit"
+    Get userInput
+    If userInput equals 1:
+        Display availableCriteria
+        Get chosenCrit
+        Display allValInCriteria
+        Get chosenVal
+        Find matching trips using findMatchingTripsBasedOnCriteria and store as tripsFound
+        Display tripsFound
+        Append tripsFound to history
+    Else if userInput equals 2:
+        Display allTripsInHistory
+    Else if userInput equals 0:
+        Display "You have exited the program."
+End While
+End Main
