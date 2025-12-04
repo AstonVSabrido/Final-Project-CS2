@@ -13,19 +13,21 @@ Project Objectives:
 3. Allow users to perform multiple searches continuously without restarting the program.
 
 Planned Features:
-* Ask the user to select a primary search criterion(e.g., destination, bus type, trip ID, status).
-* Display all possible values for the selected criterion and allow the user to pick a value.
-* Display all trips that match the chosen value.
-* Store displayed trips in a history list.
-* Allow users to view all previously displayed trips at any time.
-* Repeat the process so the user can perform multiple searches without restarting the program.
+-Ask the user to select a primary search criterion(e.g., destination, bus type, trip ID, status).
+-Display all possible values for the selected criterion and allow the user to pick a value.
+-Display all trips that match the chosen value.
+-Store displayed trips in a history list.
+-Allow users to view all previously displayed trips at any time.
+-Repeat the process so the user can perform multiple searches without restarting the program.
 
 Planned inputs:
 
 1.) The user will search primary criterions such as destination, trip_id, bus_type, etc.
 “Choose a primary criteria:”
+
 2.)  The user will then select a specific value from the list of available values under that criterion.
 “Enter a value from the list above:”
+
 3.)  The user can also choose whether to view previously displayed trips or exit the program.
 “Choose an option:”
 
@@ -33,8 +35,10 @@ Planned outputs:
 
 4.) Display the list of trips that match the selected criterion and value.
 “All values under 'main_criteria':”, list of trips
+
 5.) The program will display all previously viewed trips when the user requests it.
 “All previously displayed trips”, list of previous trips 
+
 6.)  Allow the user to perform multiple searches through a loop until they choose to exit.
 “Choose an option:”
 
