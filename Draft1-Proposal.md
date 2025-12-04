@@ -49,3 +49,30 @@ Input second criteria
 Take and display the average occupancy rate based on the range of the criteria/s
 Take and display the average fare based on the range of the criteria/s
 Take and display the number of trips that are within the range of the criteria/s
+
+PSEUDOCODE:
+
+Start Main
+Load tripData using loadJsonFile
+Flatten the trip data and store it in flatTripData = flatten(tripData)
+Set history as a string
+Set userInput as an integer
+While userInput is not equal to 0:
+    Display "[1] Search Trips"
+    Display "[2] View History"
+    Display "[0] Exit"
+    Get userInput
+    If userInput equals 1:
+        Display availableCriteria
+        Get chosenCrit
+        Display allValInCriteria
+        Get chosenVal
+        Find matching trips using findMatchingTripsBasedOnCriteria and store as tripsFound
+        Display tripsFound
+        Append tripsFound to history
+    Else if userInput equals 2:
+        Display allTripsInHistory
+    Else if userInput equals 0:
+        Display "You have exited the program."
+End While
+End Main
